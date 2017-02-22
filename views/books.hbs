@@ -1,0 +1,10 @@
+<ul class="books">
+	{{#each books}}
+		<li class="book" data-book-id="{{id}}">
+			<p class="book-name">{{name}}</p>
+			<a href="/books/{{id}}"><img src="{{pictureUrl}}" alt="picture of book {{name}}"/></a>
+			<p>{{author}}</p>
+		</li>
+	{{/each}}
+	<a href="books/new">Add Book</a>
+</ul>

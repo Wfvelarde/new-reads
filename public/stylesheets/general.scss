@@ -1,0 +1,22 @@
+$dark-grey: #333;
+$white: #FFF;
+
+header {
+	background-color: $dark-grey;
+	color: $white;
+	height: 45px;
+	padding: 1rem;
+	font-weight: 300;
+}
+
+main {
+	padding: 1rem;
+	min-height: calc(100vh - 90px);
+}
+
+footer {
+	padding: 1rem;
+	background-color: $dark-grey;
+	color: $white;
+	height: 45px;
+}
