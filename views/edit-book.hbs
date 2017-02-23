@@ -1,0 +1,9 @@
+<form action="/books/{{id}}?_method=PUT" method="post">
+    <label for="name">Name</label>
+    <input type="text" name="name" id="name" value="{{name}}">
+    <label for="picture-url">Picture URL</label>
+    <input type="url" name="pictureUrl" id="picture-url" value="{{pictureUrl}}">
+    <label for="author">Author</label>
+    <input type="text" name="author" id="author" value="{{author}}">
+    <input type="submit" value="Edit Book">
+</form>

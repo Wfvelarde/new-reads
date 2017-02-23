@@ -1,0 +1,9 @@
+<div>
+    <p>{{name}}</p>
+    <img src="{{pictureUrl}}" alt="picture of book {{name}}">
+    <p>{{author}}</p>
+    <a href="/books/edit/{{id}}">Edit Book</a>
+    <form action="/books/{{id}}?_method=DELETE" method="post">
+        <input type="submit" value="Delete Book?">
+    </form>
+</div>
